@@ -1,0 +1,60 @@
+.container{
+  /* padding-left: 20px; */
+  width: 800px;
+  border-style: solid;
+  border-width: 2px;
+  content: "";
+  clear: both;
+  display: table;
+  height:400px;
+  
+  align-content: center;
+  
+
+}
+
+#form{
+  padding: 15px;
+}
+h3{
+  padding-left: 50px;
+}
+
+.content-containers{
+  padding: 10px;
+  /* margin: 10px; */
+  float: left;
+  /* position:relative; */
+  width: 47%;
+  /* overflow: auto; */
+  border-style: solid;
+  border-width: 2px;
+  height: 400px;
+  /* width:250px;  */
+  overflow:auto;
+}
+
+.note{
+  padding:5px;
+}
+
+.dispField{
+  rows: 4;
+  columns: 60;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#left-container
+
+
+#right-container
+
+
+#left-content
+
+
+#right-content

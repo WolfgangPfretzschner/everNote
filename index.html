@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EverNote</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="script.js" defer></script> -->
+</head>
+ 
+<body>
+  <div  id="container" class="container">
+
+
+  <h3>EverNote</h3>
+
+  <form id="form" action="#" method="post">
+    <label for="new-title">Add Title:</label>
+    <input required type="text" id="new-input-title" name="new-input-title" placeholder="title">
+    <br>
+    <label for="new-note-content">Add a Note Content:</label>
+    <input required type="text" id="new-input-text" name="new-input-text" placeholder="Content">
+    <br />
+    <input id="note-submit-button" data-action="new-input" type="submit" value="Create New Note">
+  </form>
+
+  <div id="left-container"  class="content-containers">
+    <h3>Left contentn goes here!!</h3>
+    <ol id="left-content" >
+      
+    </ol>
+  </div>
+  <div id="right-container" class="content-containers">
+    <h3>Right content goes here!!</h3>
+    <ul id="right-content" >
+      
+    </ul>
+  </div>
+
+  <script src="index.js" defer></script>
+  </div>
+
+</body>
+
+
+
+</html>
